@@ -39,6 +39,13 @@
   }
 }
 
+#order_status_1, #order_status_2, #order_status_3, #order_status_4, #user_chart, #full_progress_chart, #circle_progress_chart {
+  @media(max-width: 550px) {
+      max-width: 100%; 
+      min-width: 230px;
+  }
+}
+
 .ksa-img {
   padding: 0;
   min-width: 0;
@@ -105,4 +112,11 @@
 
 .main-content-label {
     font-size: 17px !important;
+}
+
+.responsive-logo a img, .mobile-logo-dark {
+  height: 50px;
+  @media(max-width: 550px) {
+    height: 45px;
+  }
 }

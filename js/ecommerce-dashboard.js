@@ -177,7 +177,7 @@ function percentchart() {
     series: [50, 50],
     colors: ["#7367F0", "#FF9F43"],
     chart: {
-      height: 325,
+      height: 280,
       type: "radialBar",
     },
     //   colors: colors,
@@ -240,7 +240,7 @@ function full_progress_chart(colors, colors2) {
     series: [100],
     chart: {
       type: "donut",
-      height: 325,
+      height: 280,
       toolbar: {
         show: false,
       },
@@ -350,7 +350,7 @@ function user_chart() {
 
     chart: {
       type: "pie",
-      height: 330,
+      height: 280,
       dropShadow: {
         enabled: false,
         blur: 5,
@@ -393,7 +393,7 @@ function order_status_1() {
 
     chart: {
       type: "pie",
-      height: 330,
+      height: 280,
       dropShadow: {
         enabled: false,
         blur: 5,
@@ -439,7 +439,7 @@ function order_status_2() {
 
     chart: {
       type: "pie",
-      height: 330,
+      height: 280,
       dropShadow: {
         enabled: false,
         blur: 5,
@@ -485,7 +485,7 @@ function order_status_3() {
 
     chart: {
       type: "pie",
-      height: 330,
+      height: 280,
       dropShadow: {
         enabled: false,
         blur: 5,
@@ -531,7 +531,7 @@ function order_status_4() {
   
 	  chart: {
 		type: "pie",
-		height: 330,
+		height: 280,
 		dropShadow: {
 		  enabled: false,
 		  blur: 5,

@@ -145,6 +145,13 @@ License        :   Licensed under ThemeForest License
   margin-bottom: 0;
 }
 
+@media (max-width: 550px) {
+  #order_status_1, #order_status_2, #order_status_3, #order_status_4, #user_chart, #full_progress_chart, #circle_progress_chart {
+    max-width: 100%;
+    min-width: 230px;
+  }
+}
+
 .ksa-img {
   padding: 0;
   min-width: 0;
@@ -206,6 +213,15 @@ License        :   Licensed under ThemeForest License
 }
 .main-content-label {
   font-size: 17px !important;
+}
+
+.responsive-logo a img, .mobile-logo-dark {
+  height: 50px;
+}
+@media (max-width: 550px) {
+  .responsive-logo a img, .mobile-logo-dark {
+    height: 45px;
+  }
 }
 
 /* ########## BOOTSTRAP OVERRIDES ########## */
