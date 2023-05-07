@@ -20,10 +20,10 @@ jQuery('.demo-icon').click(function () {
 });
 
 //p-scroll bar
-const ps5 = new PerfectScrollbar('.sidebar-right1', {
-	useBothWheelAxes: true,
-	suppressScrollX: true,
-});
+// const ps5 = new PerfectScrollbar('.sidebar-right1', {
+// 	useBothWheelAxes: true,
+// 	suppressScrollX: true,
+// });
 
 jQuery('.main-content').click(function () {
 	if (jQuery('.demo_changer').hasClass("active")) {
@@ -593,8 +593,8 @@ function resetData() {
 		$(element).trigger('refresh.owl.carousel');
 	});
 
-	localStorage.removeItem("spruhartl");
-	localStorage.setItem("spruhaltr", true);
+	localStorage.removeItem("spruhaltr");
+	localStorage.setItem("spruhartl", true);
 
 }
 
@@ -694,9 +694,6 @@ checkOptions();
 
 
 		function light() {
-			// if (localStorage.getItem("dark-menu") == null || localStorage.getItem("dark-menu") == undefined) {
-			// 	localStorage.setItem("spruhadark-menu", "true")
-			// }
 
 			if (document.querySelector('body').classList.contains('light-theme')) {
 				$('#myonoffswitch5').prop('checked', true);
@@ -782,3 +779,4 @@ checkOptions();
 	});
 	
 })()
+

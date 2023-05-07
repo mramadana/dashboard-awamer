@@ -146,7 +146,13 @@ License        :   Licensed under ThemeForest License
 }
 
 @media (max-width: 550px) {
-  #order_status_1, #order_status_2, #order_status_3, #order_status_4, #user_chart, #full_progress_chart, #circle_progress_chart {
+  #order_status_1,
+  #order_status_2,
+  #order_status_3,
+  #order_status_4,
+  #user_chart,
+  #full_progress_chart,
+  #circle_progress_chart {
     max-width: 100%;
     min-width: 230px;
   }
@@ -162,12 +168,23 @@ License        :   Licensed under ThemeForest License
   border-radius: 50%;
 }
 
+.side-menu .main-logo .icon-logo {
+  height: 40px;
+  margin-left: 0 !important;
+}
+
+.main-sidebar-sticky {
+  z-index: 555 !important;
+}
+
 .custom-width-btn {
   min-width: 150px;
   background-color: #fff !important;
   color: #3629c7 !important;
   font-size: 17px;
   margin: 15px 0px;
+  position: relative;
+  z-index: 2;
 }
 
 .main-body .main-sidebar-body .nav {
@@ -215,11 +232,13 @@ License        :   Licensed under ThemeForest License
   font-size: 17px !important;
 }
 
-.responsive-logo a img, .mobile-logo-dark {
+.responsive-logo a img,
+.mobile-logo-dark {
   height: 50px;
 }
 @media (max-width: 550px) {
-  .responsive-logo a img, .mobile-logo-dark {
+  .responsive-logo a img,
+  .mobile-logo-dark {
     height: 45px;
   }
 }
